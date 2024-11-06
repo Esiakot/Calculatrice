@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculatrice Scientifique</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="calculatrice-principale">
+      <section class="haut">
+        <div id="affichage" contenteditable="false"></div>
+        <section id="resultat">=</section>
+      </section>
+      <section id="boutons">
+        <div class="rangées-sup">
+          <button class="btn btn-special btn-%">%</button>
+          <button class="btn btn-special btn-E">e</button>
+          <button class="btn btn-special btn-PI">π</button>
+
+          <button class="btn btn-special btn-exp1 btn-rien" id="btn-exp1">
+            x <sup>-1</sup>
+          </button>
+          <button class="btn btn-special btn-racine">√</button>
+          <button class="btn btn-special btn-exp2 btn-rien">
+            x<sup>2</sup>
+          </button>
+          <button class="btn btn-special btn-puissance btn-rien">
+            x<sup>y</sup>
+          </button>
+          <button class="btn btn-special btn-alg log10">log</button>
+          <button class="btn btn-special btn-alg log">ln</button>
+
+          <button class="btn btn-special btn-signe btn-rien">±</button>
+          <button class="btn btn-special">(</button>
+          <button class="btn btn-special">)</button>
+          <button class="btn btn-special btn-alg sin">sin</button>
+          <button class="btn btn-special btn-alg cos">cos</button>
+          <button class="btn btn-special btn-alg tan">tan</button>
+          <button class="btn btn-special btn-alg asin">asin</button>
+          <button class="btn btn-special btn-alg acos">acos</button>
+          <button class="btn btn-special btn-alg atan">atan</button>
+        </div>
+        <div class="rangées-inf">
+          <button class="btn btn-nombre" id="sept">7</button>
+          <button class="btn btn-nombre">8</button>
+          <button class="btn btn-nombre" id="neuf">9</button>
+          <button class="btn btn-supprimer" id="Suppr">⬅</button>
+          <button class="btn btn-rare btn-AC" id="btn-AC">AC</button>
+
+          <button class="btn btn-nombre">4</button>
+          <button class="btn btn-nombre">5</button>
+          <button class="btn btn-nombre">6</button>
+          <button class="btn btn-special btn-mult">*</button>
+          <button class="btn btn-special btn-div">/</button>
+
+          <button class="btn btn-nombre" id="un">1</button>
+          <button class="btn btn-nombre">2</button>
+          <button class="btn btn-nombre" id="trois">3</button>
+          <button class="btn btn-special btn-moins">-</button>
+          <button class="btn btn-special btn-plus">+</button>
+
+          <button class="btn btn-point" id="point">.</button>
+          <button class="btn btn-nombre" id="zero">0</button>
+          <button class="btn btn-special btn-EXP btn-rien">EXP</button>
+          <button class="btn btn-fonction btn-rare2" id="btn-egale">=</button>
+          <button class="btn btn-special btn-Rep btn-rien" id="rep">Rep</button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
